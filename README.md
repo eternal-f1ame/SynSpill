@@ -16,7 +16,7 @@
   
   **Beyond Zero-Shot: Industrial Spill Detection via Synthetic Data and PEFT**
   
-  *Aaditya Baranwal¹, Guneet Bhatia², Abdul Mueez¹, Jason Voelker², Shruti Vyas¹*
+  *Aaditya Baranwal¹, Abdul Mueez¹, Jason Voelker², Guneet Bhatia², Shruti Vyas¹*
 
 </div>
 
