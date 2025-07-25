@@ -49,30 +49,13 @@ graph TB
     J[Differential Inpainting] --> D
 ```
 
-## Repository Structure
-
-```text
-SynSpill/
-├── README.md                    # This file
-├── latex/                      # Paper source & assets
-│   ├── main.tex                   # Main paper
-│   ├── assets/figs/               # Figures & diagrams
-│   └── sec/                       # Paper sections
-├── synspill/                   # Project website
-│   ├── app/                       # Next.js application
-│   └── components/                # React components
-└── data/                       # Dataset information
-    └── [Dataset details in paper]
-```
-
 ## Results
 
 **Dataset Composition:**
 
-- Synthetic images: 2,000 (generated via our pipeline)
-- Public dataset: 1,520 images
-- Proprietary dataset: 150 images  
-- Reference factory images: 150 (for style conditioning)
+- Synthetic images: 2,000 (Generated via Our Pipeline)
+- Public dataset: 1,520 images (Deduplicated Roboflow Images)
+- Proprietary dataset: 150 images  (Seimens Energy)
 
 **Performance (mAP@50):**
 
@@ -93,26 +76,6 @@ SynSpill/
 - Our proposed method achieves state-of-the-art results on both datasets
 - Qwen-VL 32B + LoRA (V+L) outperforms all baselines including fine-tuned detectors
 - Synthetic data enables effective domain adaptation for vision-language models
-
-## Quick Start
-
-### Project Website
-
-```bash
-cd synspill
-npm install
-npm run dev
-```
-
-### Paper Compilation
-
-```bash
-cd latex
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
 
 ## Citation
 
