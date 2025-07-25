@@ -212,3 +212,4 @@ latex/
 
 # node
 project/node_modules/
+project/.next/

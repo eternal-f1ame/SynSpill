@@ -142,12 +142,12 @@ export function Gallery() {
             📄 Paper Figures Available
           </h3>
           <p className="text-slate-600 dark:text-slate-400 mb-6 max-w-2xl mx-auto">
-            All figures and results shown in our ICCV 2025 paper are available in the latex/assets/figs directory. 
+            All figures and results shown in our ICCV 2025 paper are available in the project/figs directory. 
             High-resolution versions suitable for presentations and publications.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/latex/assets/figs/"
+              href="/project/figs/"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300"
             >
               <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

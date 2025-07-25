@@ -7,7 +7,7 @@
 [![Siemens Energy](https://img.shields.io/badge/Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
 
 <div align="center">
-  <img src="latex/assets/figs/spill-logo.png" alt="SynSpill Logo" width="100">
+  <img src="project/figs/spill-logo.png" alt="SynSpill Logo" width="100">
   
   **Beyond Zero-Shot: Industrial Spill Detection via Synthetic Data and PEFT**
   
@@ -68,6 +68,7 @@ SynSpill/
 ## Results
 
 **Dataset Composition:**
+
 - Synthetic images: 2,000 (generated via our pipeline)
 - Public dataset: 1,520 images
 - Proprietary dataset: 150 images  
@@ -87,6 +88,7 @@ SynSpill/
 | **Qwen-VL 32B + LoRA (V+L)** | **0.84** | **0.71** |
 
 **Key Findings:**
+
 - PEFT-adapted VLMs match or exceed detector performance
 - Our proposed method achieves state-of-the-art results on both datasets
 - Qwen-VL 32B + LoRA (V+L) outperforms all baselines including fine-tuned detectors
