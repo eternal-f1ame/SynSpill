@@ -2,9 +2,9 @@
 
 <div align="center">
 
-  [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv2025.thecvf.com/)
+  [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv.thecvf.com/Conferences/2025)
   [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://eternal-f1ame.github.io/SynSpill/)
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](./latex/main.pdf)
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](#)
 </div>
 
 <div align="center">
