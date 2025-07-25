@@ -86,10 +86,6 @@ export function Hero() {
           Improved Industrial Spill Detection With Synthetic Data
         </p>
 
-        <p className="text-lg md:text-xl text-slate-500 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
-          Beyond Zero-Shot: Industrial Spill Detection via Synthetic Data and PEFT
-        </p>
-
         {/* Authors */}
         <div className="mb-12 text-slate-600 dark:text-slate-300">
           <p className="text-lg mb-2">
