@@ -94,8 +94,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- **University of Central Florida** - Research support and academic guidance
-- **Siemens Energy** - Industrial partnership and domain expertise  
-- **ICCV 2025 Community** - Peer review and conference platform
+- **University of Central Florida** - Research Support and Academic Guidance
+- **Siemens Energy** - Industrial Partnership
 
 ---
