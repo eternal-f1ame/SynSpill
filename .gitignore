@@ -209,3 +209,6 @@ __marimo__/
 
 # latex
 latex/
+
+# node
+project/node_modules/
