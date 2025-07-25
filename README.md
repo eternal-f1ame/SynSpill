@@ -9,8 +9,8 @@
 
 <div align="center">
 
-  [![UCF](https://img.shields.io/badge/UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
-  [![Siemens Energy](https://img.shields.io/badge/Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
+  [![UCF](https://img.shields.io/badge/¹UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
+  [![Siemens Energy](https://img.shields.io/badge/²Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
 
   <img src="project/figs/spill-logo.png" alt="SynSpill Logo" width="100">
   
