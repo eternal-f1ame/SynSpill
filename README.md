@@ -11,8 +11,6 @@
 
   <img src="project/figs/spill-logo.png" alt="SynSpill Logo" width="100">
   
-  **Beyond Zero-Shot: Industrial Spill Detection via Synthetic Data and PEFT**
-  
   *Aaditya Baranwal¹, Abdul Mueez¹, Jason Voelker², Guneet Bhatia², Shruti Vyas¹*
 
   [![UCF](https://img.shields.io/badge/¹UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
