@@ -63,7 +63,7 @@ export function Hero() {
               ICCV 2025
             </a>
             <a 
-              href="https://sites.google.com/view/vision4industry"
+              href="https://vision-workshop.github.io/iccv-2025/"
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
