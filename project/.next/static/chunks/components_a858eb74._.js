@@ -664,7 +664,7 @@ function Gallery() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-slate-600 dark:text-slate-400 mb-6 max-w-2xl mx-auto",
-                                children: "All figures and results shown in our ICCV 2025 paper are available in the latex/assets/figs directory. High-resolution versions suitable for presentations and publications."
+                                children: "All figures and results shown in our ICCV 2025 paper are available in the project/figs directory. High-resolution versions suitable for presentations and publications."
                             }, void 0, false, {
                                 fileName: "[project]/components/Gallery.tsx",
                                 lineNumber: 144,
@@ -674,7 +674,7 @@ function Gallery() {
                                 className: "flex flex-wrap justify-center gap-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "/latex/assets/figs/",
+                                        href: "/project/figs/",
                                         className: "inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
