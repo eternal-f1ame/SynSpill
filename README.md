@@ -1,19 +1,23 @@
 # SynSpill: Improved Industrial Spill Detection With Synthetic Data
 
-[![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv2025.thecvf.com/)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://eternal-f1ame.github.io/SynSpill/)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](./latex/main.pdf)
-[![UCF](https://img.shields.io/badge/UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
-[![Siemens Energy](https://img.shields.io/badge/Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
+<div align="center">
+
+  [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv2025.thecvf.com/)
+  [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://eternal-f1ame.github.io/SynSpill/)
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](./latex/main.pdf)
+</div>
 
 <div align="center">
+
+  [![UCF](https://img.shields.io/badge/UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
+  [![Siemens Energy](https://img.shields.io/badge/Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
+
   <img src="project/figs/spill-logo.png" alt="SynSpill Logo" width="100">
   
   **Beyond Zero-Shot: Industrial Spill Detection via Synthetic Data and PEFT**
   
   *Aaditya Baranwal¹, Guneet Bhatia², Abdul Mueez¹, Jason Voelker², Shruti Vyas¹*
-  
-  <span style="color: #FFD700; background-color: #000000; padding: 2px 8px; border-radius: 4px;">¹University of Central Florida</span>, <span style="color: #FFFFFF; background-color: #6A0DAD; padding: 2px 8px; border-radius: 4px;">²Siemens Energy</span>
+
 </div>
 
 ---
