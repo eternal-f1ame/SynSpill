@@ -70,9 +70,6 @@ export function Hero() {
               VISION Workshop
             </a>
           </div>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-2">
-            Workshop on Computer Vision for Industrial Applications
-          </p>
         </div>
 
         {/* Title */}

@@ -2,26 +2,6 @@ export function Abstract() {
   return (
     <section className="py-20 px-6 bg-white dark:bg-slate-900">
       <div className="max-w-4xl mx-auto">
-        {/* Conference Info */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center gap-4 mb-6">
-            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl text-sm font-medium shadow-lg">
-              <span className="mr-2">🏆</span>
-              ICCV 2025
-            </div>
-            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl text-sm font-medium shadow-lg">
-              <span className="mr-2">👁️</span>
-              VISION Workshop
-            </div>
-          </div>
-          <p className="text-sm text-slate-600 dark:text-slate-400 mb-2">
-            Workshop on Computer Vision for Industrial Applications
-          </p>
-          <p className="text-xs text-slate-500 dark:text-slate-500">
-            International Conference on Computer Vision • Milan, Italy • October 2025
-          </p>
-        </div>
-
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-slate-900 to-blue-800 dark:from-white dark:to-blue-300 bg-clip-text text-transparent">
           Abstract
         </h2>
