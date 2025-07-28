@@ -87,7 +87,7 @@ export function Hero() {
         {/* Authors */}
         <div className="mb-12 text-slate-600 dark:text-slate-300">
           <p className="text-lg mb-2">
-            <span className="font-semibold">Aaditya Baranwal</span>¹,  
+            <span className="font-semibold">Aaditya Baranwal</span>¹<sup>†</sup>,  
             <span className="font-semibold">Abdul Mueez</span>¹,
           </p>
           <p className="text-lg mb-4">
