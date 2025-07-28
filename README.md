@@ -20,6 +20,11 @@
 
 ---
 
+## SETUP
+
+For setting up the workflow and code, follow the instructions provided in the [SETUP](SETUP.md)
+
+
 ## Abstract
 
 Large-scale Vision-Language Models (VLMs) have transformed general-purpose visual recognition through strong zero-shot capabilities. However, their performance degrades significantly in niche, safety-critical domains such as industrial spill detection, where hazardous events are rare, sensitive, and difficult to annotate.
