@@ -127,11 +127,11 @@ export function Hero() {
           </a>
           
           <a
-            href="#dataset"
+            href="https://github.com/eternal-f1ame/SynSpill/tree/main/data"
             className="group px-8 py-4 border-2 border-orange-300 text-orange-600 rounded-xl font-semibold text-lg hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300"
           >
             <span className="flex items-center">
-              🗂️ Dataset (Coming Soon)
+              🗂️ Dataset
             </span>
           </a>
         </div>
