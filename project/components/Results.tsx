@@ -122,12 +122,12 @@ export function Results() {
                   >
                     <td className="py-4 px-4">
                       <div className="flex items-center space-x-3">
-                        <div className={`w-3 h-3 bg-gradient-to-r ${result.color} rounded-full`}></div>
+                        <div className={`w-3 h-3 bg-gradient-to-r ${result.color} rounded-sm`}></div>
                         <span className={`font-medium ${result.highlight ? 'text-slate-900 dark:text-white' : 'text-slate-700 dark:text-slate-300'}`}>
                           {result.method}
                         </span>
                         {result.highlight && (
-                          <span className="text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 px-2 py-1 rounded-full">
+                          <span className="text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 px-2 py-1 rounded-lg">
                             Best
                           </span>
                         )}

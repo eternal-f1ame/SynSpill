@@ -51,7 +51,7 @@ export function Method() {
               
               {/* Performance badge */}
               <div className="absolute top-4 right-4">
-                <div className={`bg-gradient-to-r ${approach.color} text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg`}>
+                <div className={`bg-gradient-to-r ${approach.color} text-white px-3 py-1 rounded-lg text-sm font-bold shadow-lg`}>
                   mAP: {approach.performance}
                 </div>
               </div>
@@ -65,14 +65,14 @@ export function Method() {
                   {approach.description}
                 </p>
 
-                <div className="space-y-2">
-                  {approach.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center space-x-2">
-                      <div className={`w-2 h-2 bg-gradient-to-r ${approach.color} rounded-full`}></div>
-                      <span className="text-sm text-slate-700 dark:text-slate-300">{feature}</span>
-                    </div>
-                  ))}
-                </div>
+                                  <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                    {approach.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-start space-x-2">
+                        <div className={`w-2 h-2 bg-gradient-to-r ${approach.color} rounded-sm mt-2`}></div>
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
               </div>
             </div>
           ))}
@@ -86,7 +86,7 @@ export function Method() {
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="bg-gradient-to-br from-purple-500 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-purple-500 to-pink-500 w-16 h-16 rounded-xl flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
                 🎨
               </div>
               <h4 className="font-bold text-slate-900 dark:text-white mb-2">Generate</h4>
@@ -94,7 +94,7 @@ export function Method() {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-16 h-16 rounded-xl flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
                 🏷️
               </div>
               <h4 className="font-bold text-slate-900 dark:text-white mb-2">Annotate</h4>
@@ -102,7 +102,7 @@ export function Method() {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-xl flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
                 🔧
               </div>
               <h4 className="font-bold text-slate-900 dark:text-white mb-2">Adapt</h4>
@@ -110,7 +110,7 @@ export function Method() {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-yellow-500 to-orange-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-yellow-500 to-orange-500 w-16 h-16 rounded-xl flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg">
                 ✅
               </div>
               <h4 className="font-bold text-slate-900 dark:text-white mb-2">Deploy</h4>

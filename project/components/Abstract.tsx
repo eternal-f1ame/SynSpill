@@ -5,11 +5,11 @@ export function Abstract() {
         {/* Conference Info */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center gap-4 mb-6">
-            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-sm font-medium shadow-lg">
+            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl text-sm font-medium shadow-lg">
               <span className="mr-2">🏆</span>
               ICCV 2025
             </div>
-            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full text-sm font-medium shadow-lg">
+            <div className="flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl text-sm font-medium shadow-lg">
               <span className="mr-2">👁️</span>
               VISION Workshop
             </div>

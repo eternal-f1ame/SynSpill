@@ -15,12 +15,12 @@ export function Hero() {
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
-      {/* Animated background particles */}
+        {/* Animated background particles */}
       <div className="absolute inset-0">
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-2 h-2 bg-blue-400 rounded-full opacity-20 animate-pulse"
+            className="absolute w-2 h-2 bg-blue-400 rounded-lg opacity-20 animate-pulse"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -29,16 +29,14 @@ export function Hero() {
             }}
           />
         ))}
-      </div>
-
-      <div className={`relative z-10 text-center px-6 transition-all duration-1000 ${
+      </div>      <div className={`relative z-10 text-center px-6 transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}>
         {/* Logo */}
         <div className="mb-8 flex justify-center">
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
-            <div className="relative bg-white dark:bg-slate-800 rounded-full p-6 shadow-2xl">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
+            <div className="relative bg-white dark:bg-slate-800 rounded-xl p-6 shadow-2xl">
               <Image
                 src="/spill-logo.png"
                 alt="SynSpill Logo"
@@ -57,7 +55,7 @@ export function Hero() {
               href="https://iccv.thecvf.com/Conferences/2025" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <span className="mr-2">🏆</span>
               ICCV 2025
@@ -66,7 +64,7 @@ export function Hero() {
               href="https://vision-workshop.github.io/iccv-2025/"
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <span className="mr-2">👁️</span>
               VISION Workshop
@@ -106,7 +104,7 @@ export function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <a
             href="/paper.pdf"
-            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
           >
             <span className="relative z-10 flex items-center">
               📄 Read Paper
@@ -118,7 +116,7 @@ export function Hero() {
           
           <a
             href="https://github.com/eternal-f1ame/SynSpill"
-            className="group px-8 py-4 border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 rounded-full font-semibold text-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
+            className="group px-8 py-4 border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 rounded-xl font-semibold text-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
           >
             <span className="flex items-center">
               <svg className="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -130,7 +128,7 @@ export function Hero() {
           
           <a
             href="#dataset"
-            className="group px-8 py-4 border-2 border-orange-300 text-orange-600 rounded-full font-semibold text-lg hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300"
+            className="group px-8 py-4 border-2 border-orange-300 text-orange-600 rounded-xl font-semibold text-lg hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300"
           >
             <span className="flex items-center">
               🗂️ Dataset (Coming Soon)
@@ -141,7 +139,7 @@ export function Hero() {
         {/* Scroll indicator */}
         <button 
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-          className="absolute bottom-1 left-1/2 transform -translate-x-1/2 p-3 rounded-full bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
+          className="absolute bottom-1 left-1/2 transform -translate-x-1/2 p-3 rounded-xl bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
           aria-label="Scroll down"
         >
           <svg className="w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
