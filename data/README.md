@@ -62,11 +62,11 @@ The data is organized for direct use with computer vision frameworks:
 If you use this dataset in your research, please cite our ICCV 2025 paper:
 
 ```bibtex
-@inproceedings{synspill2025,
-  title={SynSpill: Synthetic Dataset for Industrial Spill Detection and Synthesis},
-  author={[Author Names]},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2025}
+@inproceedings{baranwal2025synspill,
+    title={SynSpill: Improved Industrial Spill Detection With Synthetic Data},
+    author={Baranwal, Aaditya and Bhatia, Guneet and Mueez, Abdul and Voelker, Jason and Vyas, Shruti},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    year={2025}
 }
 ```
 
