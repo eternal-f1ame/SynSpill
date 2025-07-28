@@ -154,19 +154,19 @@ export function Results() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-purple-500 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-purple-500 rounded-sm mt-2"></div>
                 <p className="text-slate-700 dark:text-slate-300">
                   <strong>PEFT VLMs achieve state-of-the-art performance</strong> - Qwen-VL 32B + LoRA (V+L) outperforms all baselines with 84% mAP@50
                 </p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-sm mt-2"></div>
                 <p className="text-slate-700 dark:text-slate-300">
                   <strong>Synthetic data enables effective adaptation</strong> - 2,000 synthetic images bridge the domain gap for industrial spill detection
                 </p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-blue-500 rounded-sm mt-2"></div>
                 <p className="text-slate-700 dark:text-slate-300">
                   <strong>Joint vision-language adaptation optimal</strong> - LoRA (V+L) provides the best performance across both datasets
                 </p>
@@ -180,7 +180,7 @@ export function Results() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <div className="bg-gradient-to-r from-blue-500 to-purple-500 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                <div className="bg-gradient-to-r from-blue-500 to-purple-500 w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-bold">
                   1
                 </div>
                 <p className="text-slate-700 dark:text-slate-300">
@@ -188,7 +188,7 @@ export function Results() {
                 </p>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="bg-gradient-to-r from-green-500 to-emerald-500 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                <div className="bg-gradient-to-r from-green-500 to-emerald-500 w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-bold">
                   2
                 </div>
                 <p className="text-slate-700 dark:text-slate-300">
@@ -196,7 +196,7 @@ export function Results() {
                 </p>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="bg-gradient-to-r from-orange-500 to-red-500 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                <div className="bg-gradient-to-r from-orange-500 to-red-500 w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-bold">
                   3
                 </div>
                 <p className="text-slate-700 dark:text-slate-300">

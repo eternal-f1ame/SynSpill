@@ -17,15 +17,15 @@ export function Hero() {
       
         {/* Animated background particles */}
       <div className="absolute inset-0">
-        {[...Array(20)].map((_, i) => (
+        {isVisible && [...Array(20)].map((_, i) => (
           <div
             key={i}
             className="absolute w-2 h-2 bg-blue-400 rounded-lg opacity-20 animate-pulse"
             style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${3 + Math.random() * 2}s`
+              left: `${(i * 13.7) % 100}%`,
+              top: `${(i * 17.3) % 100}%`,
+              animationDelay: `${(i * 0.15) % 3}s`,
+              animationDuration: `${3 + (i * 0.1) % 2}s`
             }}
           />
         ))}
