@@ -11,7 +11,7 @@
 
   <img src="project/figs/spill-logo.png" alt="SynSpill Logo" width="100">
   
-  *Aaditya Baranwal¹<sup>&dagger;</sup>, Abdul Mueez¹, Jason Voelker², Guneet Bhatia², Shruti Vyas¹*
+  *Aaditya Baranwal¹, Abdul Mueez¹, Jason Voelker², Guneet Bhatia², Shruti Vyas¹*
 
   [![UCF](https://img.shields.io/badge/¹UCF-University_of_Central_Florida-black?style=flat&labelColor=FFD700)](https://www.ucf.edu/)
   [![Siemens Energy](https://img.shields.io/badge/²Siemens-Energy-6A0DAD?style=flat&labelColor=white)](https://www.siemens-energy.com/)
@@ -19,6 +19,11 @@
 </div>
 
 ---
+
+## SETUP
+
+For setting up the workflow and code, follow the instructions provided in the [SETUP](SETUP.md)
+
 
 ## Abstract
 
@@ -92,7 +97,7 @@ graph TB
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
