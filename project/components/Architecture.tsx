@@ -15,7 +15,7 @@ export function Architecture() {
             
             {/* Input Stage */}
             <div className="text-center">
-              <div className="bg-gradient-to-br from-green-500 to-emerald-600 w-20 h-20 rounded-full flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-green-500 to-emerald-600 w-20 h-20 rounded-xl flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
                 📹
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Input Stage</h3>
@@ -31,7 +31,7 @@ export function Architecture() {
 
             {/* Processing Stage */}
             <div className="text-center">
-              <div className="bg-gradient-to-br from-blue-500 to-purple-600 w-20 h-20 rounded-full flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-blue-500 to-purple-600 w-20 h-20 rounded-xl flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
                 🧠
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">VLM Processing</h3>
@@ -50,7 +50,7 @@ export function Architecture() {
 
             {/* Output Stage */}
             <div className="text-center">
-              <div className="bg-gradient-to-br from-red-500 to-orange-600 w-20 h-20 rounded-full flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
+              <div className="bg-gradient-to-br from-red-500 to-orange-600 w-20 h-20 rounded-xl flex items-center justify-center text-3xl mb-4 mx-auto shadow-lg">
                 🚨
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Alert System</h3>
@@ -88,7 +88,7 @@ export function Architecture() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-4">
-                <div className="bg-gradient-to-br from-purple-500 to-pink-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                <div className="bg-gradient-to-br from-purple-500 to-pink-500 w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg">
                   1
                 </div>
                 <div>
@@ -98,7 +98,7 @@ export function Architecture() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg">
                   2
                 </div>
                 <div>
@@ -108,7 +108,7 @@ export function Architecture() {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg">
                   3
                 </div>
                 <div>
