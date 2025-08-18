@@ -7,9 +7,10 @@ export function Citation() {
 
   const bibtex = `@inproceedings{baranwal2025synspill,
     title={SynSpill: Improved Industrial Spill Detection With Synthetic Data},
-    author={Baranwal, Aaditya and Mueez, Abdul and Voelker, Jason and Bhatia, Guneet and Vyas, Shruti},
+    author={Aaditya Baranwal, Abdul Mueez, Jason Voelker, Guneet Bhatia and Sruti Vyas},
     booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision - Workshops (ICCV-W)},
-    year={2025}
+    year={2025},
+    url={https://arxiv.org/abs/2508.10171}
 }`;
 
   const copyToClipboard = async () => {

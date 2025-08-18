@@ -4,7 +4,7 @@
 
   [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv.thecvf.com/Conferences/2025)
   [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://synspill.vercel.app/)
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](#)
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://arxiv.org/abs/2508.10171)
 </div>
 
 <div align="center">
@@ -89,9 +89,10 @@ graph TB
 ```bibtex
 @inproceedings{baranwal2025synspill,
     title={SynSpill: Improved Industrial Spill Detection With Synthetic Data},
-    author={Baranwal, Aaditya and Bhatia, Guneet and Mueez, Abdul and Voelker, Jason and Vyas, Shruti},
+    author={Aaditya Baranwal, Abdul Mueez, Jason Voelker, Guneet Bhatia and Sruti Vyas},
     booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision - Workshops (ICCV-W)},
-    year={2025}
+    year={2025},
+    url={url={https://arxiv.org/abs/2508.10171},}
 }
 ```
 
