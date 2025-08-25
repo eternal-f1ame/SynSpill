@@ -156,7 +156,7 @@ export function Gallery() {
               View Paper Figures
             </a>
             <a
-              href="/paper.pdf"
+              href="https://arxiv.org/abs/2508.10171"
               className="inline-flex items-center px-6 py-3 border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 rounded-full font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-all duration-300"
             >
               📄 Full Paper (PDF)

@@ -100,7 +100,7 @@ export function Hero() {
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <a
-            href="/paper.pdf"
+            href="https://arxiv.org/abs/2508.10171"
             className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
           >
             <span className="relative z-10 flex items-center">
