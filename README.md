@@ -3,7 +3,7 @@
 <div align="center">
 
   [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue.svg)](https://iccv.thecvf.com/Conferences/2025)
-  [![Hugging Face](https://img.shields.io/badge/Hugging-Face-yellow.svg)]([https://synspill.vercel.app/](https://huggingface.co/datasets/sochastic/SynSpill))
+  [![Hugging Face](https://img.shields.io/badge/Hugging-Face-yellow.svg)](https://huggingface.co/datasets/sochastic/SynSpill)
   [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://arxiv.org/abs/2508.10171)
 </div>
 
